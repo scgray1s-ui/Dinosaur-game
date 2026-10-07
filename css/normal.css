@@ -1,0 +1,10 @@
+ body{
+    background-color: rgb(110, 190, 255);
+ }
+
+.center-image {
+  display: block;       
+  margin-left: auto;    
+  margin-right: auto;   
+  width: 80%; 
+}
