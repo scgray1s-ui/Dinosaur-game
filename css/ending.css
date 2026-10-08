@@ -1,4 +1,32 @@
 /* Center aline */
+body{
+    background-color: rgb(7, 37, 82);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+ }
+
+img {
+  display: block;       
+  margin-left: auto;  
+  margin-right: auto;     
+  width: 40%; 
+  border: 25px solid #0077ff;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a {
+  font-size: 30px;
+}
+
 h1 {
   text-align: center;
 }
@@ -9,11 +37,4 @@ blockquote {
 
 p {
   text-align: center;
-}
-
-.center-image {
-  display: block;       
-  margin-left: auto;    
-  margin-right: auto;   
-  width: 80%; 
 }

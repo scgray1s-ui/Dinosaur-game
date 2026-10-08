@@ -1,4 +1,9 @@
- body{
+@font-face {
+  font-family: "sans";
+  src: url(../fonts/IHATCS__.TTF);
+}
+
+body{
     background-color: rgb(110, 190, 255);
  }
 
@@ -6,5 +11,45 @@
   display: block;       
   margin-left: auto;    
   margin-right: auto;   
-  width: 80%; 
+  width: 50%; 
+}
+
+p {
+  font-size: 20%; 
+}
+
+p.tut {
+  font-size: 50px;
+}
+
+p.Home {
+  margin-left: 50%;
+}
+
+div.maintxt {
+  float: left;
+}
+
+img {
+  border: 25px solid #0077ff;
+  margin-left: 30%;
+  size: 100%;
+}
+
+body {
+  font-family: "sans"
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a {
+  font-size: 30px;
 }
